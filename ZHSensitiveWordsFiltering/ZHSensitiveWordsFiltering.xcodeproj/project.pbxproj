@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6958308F22DEC4D400B9FF0F /* ZHFilter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6958309022DEC4D400B9FF0F /* Build configuration list for PBXAggregateTarget "ZHFilter" */;
+			buildPhases = (
+				6958309322DEC71900B9FF0F /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = ZHFilter;
+			productName = ZHFilter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		6958306C22DEC31400B9FF0F /* ZHSensitiveWordsFiltering.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6958306222DEC31400B9FF0F /* ZHSensitiveWordsFiltering.framework */; };
+		6958307122DEC31400B9FF0F /* ZHSensitiveWordsFilteringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6958307022DEC31400B9FF0F /* ZHSensitiveWordsFilteringTests.m */; };
+		6958307322DEC31400B9FF0F /* ZHSensitiveWordsFiltering.h in Headers */ = {isa = PBXBuildFile; fileRef = 6958306522DEC31400B9FF0F /* ZHSensitiveWordsFiltering.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6958308822DEC39F00B9FF0F /* ZHSensitiveWordsFilteringManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6958308622DEC39F00B9FF0F /* ZHSensitiveWordsFilteringManager.h */; };
+		6958308922DEC39F00B9FF0F /* ZHSensitiveWordsFilteringManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6958308722DEC39F00B9FF0F /* ZHSensitiveWordsFilteringManager.m */; };
+		6958308C22DEC3B500B9FF0F /* NSString+ZHFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6958308A22DEC3B500B9FF0F /* NSString+ZHFilter.h */; };
+		6958308D22DEC3B500B9FF0F /* NSString+ZHFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6958308B22DEC3B500B9FF0F /* NSString+ZHFilter.m */; };
+		6958308E22DEC46C00B9FF0F /* ZHFilterHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6958308522DEC37600B9FF0F /* ZHFilterHeader.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6958306D22DEC31400B9FF0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6958305922DEC31300B9FF0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6958306122DEC31400B9FF0F;
+			remoteInfo = ZHSensitiveWordsFiltering;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6958306222DEC31400B9FF0F /* ZHSensitiveWordsFiltering.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZHSensitiveWordsFiltering.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6958306522DEC31400B9FF0F /* ZHSensitiveWordsFiltering.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHSensitiveWordsFiltering.h; sourceTree = "<group>"; };
+		6958306622DEC31400B9FF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6958306B22DEC31400B9FF0F /* ZHSensitiveWordsFilteringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHSensitiveWordsFilteringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6958307022DEC31400B9FF0F /* ZHSensitiveWordsFilteringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHSensitiveWordsFilteringTests.m; sourceTree = "<group>"; };
+		6958307222DEC31400B9FF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6958308522DEC37600B9FF0F /* ZHFilterHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHFilterHeader.h; sourceTree = "<group>"; };
+		6958308622DEC39F00B9FF0F /* ZHSensitiveWordsFilteringManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHSensitiveWordsFilteringManager.h; sourceTree = "<group>"; };
+		6958308722DEC39F00B9FF0F /* ZHSensitiveWordsFilteringManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHSensitiveWordsFilteringManager.m; sourceTree = "<group>"; };
+		6958308A22DEC3B500B9FF0F /* NSString+ZHFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ZHFilter.h"; sourceTree = "<group>"; };
+		6958308B22DEC3B500B9FF0F /* NSString+ZHFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZHFilter.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6958305F22DEC31400B9FF0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6958306822DEC31400B9FF0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6958306C22DEC31400B9FF0F /* ZHSensitiveWordsFiltering.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6958305822DEC31300B9FF0F = {
+			isa = PBXGroup;
+			children = (
+				6958306422DEC31400B9FF0F /* ZHSensitiveWordsFiltering */,
+				6958306F22DEC31400B9FF0F /* ZHSensitiveWordsFilteringTests */,
+				6958306322DEC31400B9FF0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6958306322DEC31400B9FF0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6958306222DEC31400B9FF0F /* ZHSensitiveWordsFiltering.framework */,
+				6958306B22DEC31400B9FF0F /* ZHSensitiveWordsFilteringTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6958306422DEC31400B9FF0F /* ZHSensitiveWordsFiltering */ = {
+			isa = PBXGroup;
+			children = (
+				6958307C22DEC34D00B9FF0F /* ZHSensitiveWordsFiltering */,
+				6958306522DEC31400B9FF0F /* ZHSensitiveWordsFiltering.h */,
+				6958306622DEC31400B9FF0F /* Info.plist */,
+			);
+			path = ZHSensitiveWordsFiltering;
+			sourceTree = "<group>";
+		};
+		6958306F22DEC31400B9FF0F /* ZHSensitiveWordsFilteringTests */ = {
+			isa = PBXGroup;
+			children = (
+				6958307022DEC31400B9FF0F /* ZHSensitiveWordsFilteringTests.m */,
+				6958307222DEC31400B9FF0F /* Info.plist */,
+			);
+			path = ZHSensitiveWordsFilteringTests;
+			sourceTree = "<group>";
+		};
+		6958307C22DEC34D00B9FF0F /* ZHSensitiveWordsFiltering */ = {
+			isa = PBXGroup;
+			children = (
+				6958308522DEC37600B9FF0F /* ZHFilterHeader.h */,
+				6958308622DEC39F00B9FF0F /* ZHSensitiveWordsFilteringManager.h */,
+				6958308722DEC39F00B9FF0F /* ZHSensitiveWordsFilteringManager.m */,
+				6958308A22DEC3B500B9FF0F /* NSString+ZHFilter.h */,
+				6958308B22DEC3B500B9FF0F /* NSString+ZHFilter.m */,
+			);
+			path = ZHSensitiveWordsFiltering;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6958305D22DEC31400B9FF0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6958308C22DEC3B500B9FF0F /* NSString+ZHFilter.h in Headers */,
+				6958308822DEC39F00B9FF0F /* ZHSensitiveWordsFilteringManager.h in Headers */,
+				6958307322DEC31400B9FF0F /* ZHSensitiveWordsFiltering.h in Headers */,
+				6958308E22DEC46C00B9FF0F /* ZHFilterHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6958306122DEC31400B9FF0F /* ZHSensitiveWordsFiltering */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6958307622DEC31400B9FF0F /* Build configuration list for PBXNativeTarget "ZHSensitiveWordsFiltering" */;
+			buildPhases = (
+				6958305D22DEC31400B9FF0F /* Headers */,
+				6958305E22DEC31400B9FF0F /* Sources */,
+				6958305F22DEC31400B9FF0F /* Frameworks */,
+				6958306022DEC31400B9FF0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHSensitiveWordsFiltering;
+			productName = ZHSensitiveWordsFiltering;
+			productReference = 6958306222DEC31400B9FF0F /* ZHSensitiveWordsFiltering.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6958306A22DEC31400B9FF0F /* ZHSensitiveWordsFilteringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6958307922DEC31400B9FF0F /* Build configuration list for PBXNativeTarget "ZHSensitiveWordsFilteringTests" */;
+			buildPhases = (
+				6958306722DEC31400B9FF0F /* Sources */,
+				6958306822DEC31400B9FF0F /* Frameworks */,
+				6958306922DEC31400B9FF0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6958306E22DEC31400B9FF0F /* PBXTargetDependency */,
+			);
+			name = ZHSensitiveWordsFilteringTests;
+			productName = ZHSensitiveWordsFilteringTests;
+			productReference = 6958306B22DEC31400B9FF0F /* ZHSensitiveWordsFilteringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6958305922DEC31300B9FF0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "郑晗";
+				TargetAttributes = {
+					6958306122DEC31400B9FF0F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					6958306A22DEC31400B9FF0F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					6958308F22DEC4D400B9FF0F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6958305C22DEC31300B9FF0F /* Build configuration list for PBXProject "ZHSensitiveWordsFiltering" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6958305822DEC31300B9FF0F;
+			productRefGroup = 6958306322DEC31400B9FF0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6958306122DEC31400B9FF0F /* ZHSensitiveWordsFiltering */,
+				6958306A22DEC31400B9FF0F /* ZHSensitiveWordsFilteringTests */,
+				6958308F22DEC4D400B9FF0F /* ZHFilter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6958306022DEC31400B9FF0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6958306922DEC31400B9FF0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6958309322DEC71900B9FF0F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nFMK_NAME=ZHSensitiveWordsFiltering#FMK_NAME=${PROJECT_NAME}# Install dir will be the final output to the framework.# The following line create it in the root folder of the current project.INSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework# Working dir will be deleted after the framework creation.WRK_DIR=buildDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.frameworkSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework# -configuration ${CONFIGURATION}# Clean and Building both architectures.xcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean buildxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build# Cleaning the oldest.if [ -d \"${INSTALL_DIR}\" ]thenrm -rf \"${INSTALL_DIR}\"fimkdir -p \"${INSTALL_DIR}\"cp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.lipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"#rm -r \"${WRK_DIR}\"open \"${INSTALL_DIR}\"\n\n作者：木有网名\n链接：https://www.jianshu.com/p/eedb9f2c238d\n来源：简书\n简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6958305E22DEC31400B9FF0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6958308D22DEC3B500B9FF0F /* NSString+ZHFilter.m in Sources */,
+				6958308922DEC39F00B9FF0F /* ZHSensitiveWordsFilteringManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6958306722DEC31400B9FF0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6958307122DEC31400B9FF0F /* ZHSensitiveWordsFilteringTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6958306E22DEC31400B9FF0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6958306122DEC31400B9FF0F /* ZHSensitiveWordsFiltering */;
+			targetProxy = 6958306D22DEC31400B9FF0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6958307422DEC31400B9FF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6958307522DEC31400B9FF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6958307722DEC31400B9FF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9HV86679DL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZHSensitiveWordsFiltering/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhenghan.ZHSensitiveWordsFiltering;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6958307822DEC31400B9FF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9HV86679DL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZHSensitiveWordsFiltering/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhenghan.ZHSensitiveWordsFiltering;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6958307A22DEC31400B9FF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HV86679DL;
+				INFOPLIST_FILE = ZHSensitiveWordsFilteringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhenghan.ZHSensitiveWordsFilteringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6958307B22DEC31400B9FF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HV86679DL;
+				INFOPLIST_FILE = ZHSensitiveWordsFilteringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhenghan.ZHSensitiveWordsFilteringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6958309122DEC4D400B9FF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HV86679DL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6958309222DEC4D400B9FF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HV86679DL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6958305C22DEC31300B9FF0F /* Build configuration list for PBXProject "ZHSensitiveWordsFiltering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6958307422DEC31400B9FF0F /* Debug */,
+				6958307522DEC31400B9FF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6958307622DEC31400B9FF0F /* Build configuration list for PBXNativeTarget "ZHSensitiveWordsFiltering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6958307722DEC31400B9FF0F /* Debug */,
+				6958307822DEC31400B9FF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6958307922DEC31400B9FF0F /* Build configuration list for PBXNativeTarget "ZHSensitiveWordsFilteringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6958307A22DEC31400B9FF0F /* Debug */,
+				6958307B22DEC31400B9FF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6958309022DEC4D400B9FF0F /* Build configuration list for PBXAggregateTarget "ZHFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6958309122DEC4D400B9FF0F /* Debug */,
+				6958309222DEC4D400B9FF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6958305922DEC31300B9FF0F /* Project object */;
+}
